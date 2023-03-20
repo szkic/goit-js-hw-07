@@ -21,8 +21,6 @@ const addImages = galleryItems.map((image) => {
   createImg.setAttribute("alt", image.description);
 
   galleryEl.append(createEl);
-
-  console.log(galleryEl);
 });
 
 let lightbox = new SimpleLightbox(".gallery a", {
